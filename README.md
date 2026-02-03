@@ -12,14 +12,21 @@ QDD 모터 품질 검사 프로그램 / QDD Motor Quality Control Program
 
 | 플랫폼 | 파일 | 설명 |
 |--------|------|------|
+| Windows | `ARobot_QDD_QC_Setup_*.exe` | **설치 프로그램 (권장)** |
+| Windows | `ARobot_QDD_QC_Windows.zip` | 포터블 버전 |
 | Windows | `ARobot_QDD_QC.exe` | 단독 실행 파일 |
-| Windows | `ARobot_QDD_QC_Windows.zip` | 설정 포함 전체 패키지 |
-| Linux | `arobot_qdd_qc` | 단독 실행 파일 |
 | Linux | `ARobot_QDD_QC_Linux.tar.gz` | 설정 포함 전체 패키지 |
+| Linux | `arobot_qdd_qc` | 단독 실행 파일 |
 
 ### 빠른 시작
 
-**Windows:**
+**Windows (권장):**
+1. Releases 페이지에서 `ARobot_QDD_QC_Setup_*.exe` 다운로드
+2. 설치 프로그램 실행
+3. 화면 안내에 따라 설치 완료
+4. 바탕화면 또는 시작 메뉴에서 프로그램 실행
+
+**Windows (포터블):**
 1. `ARobot_QDD_QC_Windows.zip` 다운로드
 2. 원하는 폴더에 압축 해제
 3. `ARobot_QDD_QC.exe` 더블클릭하여 실행
@@ -43,7 +50,7 @@ cd arobot_qdd_qc_linux
 ### 하드웨어 요구사항
 
 - USBCAN 어댑터 (USBCAN2)
-- QDD 모터 (X4-10, X4-36, X6-60, X8-120)
+- QDD 모터 (X4-10, X4-36, X6-60, X8-120, X12-320)
 - CAN 버스 케이블
 
 ### 등급 기준
@@ -68,14 +75,21 @@ Download the latest version from [Releases](https://github.com/roscore/arobot-qd
 
 | Platform | File | Description |
 |----------|------|-------------|
+| Windows | `ARobot_QDD_QC_Setup_*.exe` | **Installer (Recommended)** |
+| Windows | `ARobot_QDD_QC_Windows.zip` | Portable version |
 | Windows | `ARobot_QDD_QC.exe` | Standalone executable |
-| Windows | `ARobot_QDD_QC_Windows.zip` | Full package with config |
-| Linux | `arobot_qdd_qc` | Standalone executable |
 | Linux | `ARobot_QDD_QC_Linux.tar.gz` | Full package with config |
+| Linux | `arobot_qdd_qc` | Standalone executable |
 
 ### Quick Start
 
-**Windows:**
+**Windows (Recommended):**
+1. Download `ARobot_QDD_QC_Setup_*.exe` from Releases page
+2. Run the installer
+3. Follow the on-screen instructions
+4. Launch from desktop or Start menu
+
+**Windows (Portable):**
 1. Download `ARobot_QDD_QC_Windows.zip`
 2. Extract to desired folder
 3. Double-click `ARobot_QDD_QC.exe` to run
@@ -99,7 +113,7 @@ cd arobot_qdd_qc_linux
 ### Hardware Requirements
 
 - USBCAN adapter (USBCAN2)
-- QDD motor (X4-10, X4-36, X6-60, X8-120)
+- QDD motor (X4-10, X4-36, X6-60, X8-120, X12-320)
 - CAN bus cable
 
 ### Grade Criteria
